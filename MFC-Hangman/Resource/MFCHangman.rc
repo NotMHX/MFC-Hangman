@@ -1,0 +1,137 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Germany) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_HANGMAN DIALOGEX 0, 0, 311, 311
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Hangman"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",101,"Static",SS_BLACKFRAME,18,7,273,193
+    LTEXT           "Attempts left:",IDC_STATIC,164,213,46,8
+    LTEXT           "(Word placeholder)",201,18,212,116,8
+    CTEXT           "(Att. placeholder)",203,217,213,65,8
+    EDITTEXT        301,172,254,22,14,ES_AUTOHSCROLL
+    LTEXT           "Guess a letter:",IDC_STATIC,118,257,48,8
+    PUSHBUTTON      "Go!",302,95,271,121,16
+    LTEXT           "(Hint placeholder)",202,18,228,115,18
+    LTEXT           "Wrong letters:",IDC_STATIC,163,228,48,8
+    CTEXT           "(Wrong placeholder)",204,218,228,66,8
+END
+
+IDD_DIFFICULTY DIALOGEX 0, 0, 209, 63
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Hangman Difficulty Selection"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Select Difficulty:",201,77,22,53,8
+    PUSHBUTTON      "Easy",101,15,42,50,14
+    PUSHBUTTON      "Medium",102,79,42,50,14
+    PUSHBUTTON      "Hard",103,143,42,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_HANGMAN, DIALOG
+    BEGIN
+        LEFTMARGIN, 18
+        RIGHTMARGIN, 291
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 300
+    END
+
+    IDD_DIFFICULTY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 202
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 56
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_HANGMAN AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIFFICULTY AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_MHH_TESTRESOURCE    "MFCHangman_Test resource: MHH"
+END
+
+#endif    // German (Germany) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
